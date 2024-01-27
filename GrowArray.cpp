@@ -17,7 +17,7 @@ int main()
             break;
         if (index < size)
         {
-            *(ptr + index) = input;
+            ptr[index]=input;     //*(ptr + index) = input;
             index++;
         }
         else
