@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+int a=10;
 class preInc
 {
 
@@ -22,6 +23,7 @@ public:
     void print()
     {
         cout<<a<<" "<<b<<"\n";
+        cout<<::a;
     }
 };
 
